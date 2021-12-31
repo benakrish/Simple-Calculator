@@ -1,0 +1,156 @@
+==============================================================
+|															 |
+|						  Calculator						 |
+| 						by  Ben Akrish						 |
+|															 |
+==============================================================
+
+	12/30/2021
+	Version Beta 0.34
+
+1. Intro
+________________________
+
+	The "Calculator" program generates a resizable window
+	1containing a basic calculator, which can perform simple
+	operations such as addition, subtraction, multiplication,
+	and division. It can handle negative numbers and decimals,
+	and can also perform the square root function.
+	
+	The window is resizable and remains usable at any size
+	chosen by the user.
+	
+	Thank you for checking out my Calculator, designed in
+	Java using Swing. This is my first project designing
+	GUIs using Java and I wanted to go for something that
+	looks and feels good. This readme.txt file will explain
+	some of my motivations for this project, what I did to
+	complete it, and what I've learned as a result.
+
+2. About the Creator
+________________________
+
+	Hi, my name is Ben Akrish. I am a finance student at
+	the University of Washington, Seattle. I have recently
+	become very fond of coding after learning from some of
+	the best faculty in the world at my university. However,
+	I was sad to see that there was no time to approach visual
+	coding aspects during my two introductory Java courses.
+	Hence, I took it upon myself to learn the basics.
+	
+	I'm not particularly interested in visual coding alone,
+	but I believe that user interfaces must be sleek; this
+	is essential to success in coding, but also in business 
+	and in life. Presentation is everything. Plus, it's a lot 
+	of fun to see something come to life visually.
+	
+	I am interested in reading and exercise, and I pursue a 
+	variety of projects in my free time (of which I have 
+	little). I'm excited to collaborate with others, and I am 
+	particularly interested in developments in the 
+	cryptocurrency space.
+	
+	Let there be no more delay. I assume that most viewing this
+	project are new to visual coding in Java just as I am, so
+	I'll get right to my takeaways. I hope that my experience
+	with this project can help others on a similar path.
+	
+3. Motivations
+________________________
+
+	I quickly noticed when I started coding in Java that there
+	is a bit of a gap between creating visible projects from
+	creating visibly-simple text-only programs. While these
+	are great and all, this project serves as a milestone in
+	my coding journey. Creating a GUI from scratch that also
+	performs calculations commands skill in multiple aspects
+	of Java programming. Understandings across multiple parts
+	must be combined to complete this program.
+	
+	I also wanted a calculator that I could quickly open up
+	from my desktop and actually use. This calculator will 
+	serve that purpose well. Of course, these already exist,
+	but it feels about 34% cooler to use a calculator that you
+	designed yourself.
+
+4. Methods
+________________________
+
+	I used Swing to create this program's display in Java.
+	It uses a GridBagLayout, which is how it is so easily
+	resizable and maintains proportions.
+	
+	The actual calculations for the calculator took me
+	longer to create, surprisingly. These are handled
+	within a separate class called "CalculatorManager."
+	To keep my code extremely clean, I used three classes
+	(including "main") to break everything up into
+	calculations, display, and main. Main handles the 
+	flow of data between the user and the computer.	
+
+5. What I've Learned
+________________________
+
+	From this project, I mostly learned to never give up.
+	But more than that, I figured out a lot of nuanced 
+	ways of solving problems in Swing. Sometimes, getting
+	around an issue is best done by simply using another
+	method. Swing is perfect for this, as there are a
+	multiplicity of ways to solve every problem.
+	
+	As any programmer should, I frequently consulted 
+	different locations on Google for help resolving minor
+	issues. Since this was my first time using Swing, I
+	watched a tutorial for exposure to the subject before
+	diving in, and I believe that this tutorial was
+	instrumental. However, working through the problem
+	firsthand was the most concrete source of learning,
+	and this project solidified the importance of working at
+	a problem instead of locking myself into a state of
+	perpetual "analysis paralysis."
+
+6. Contribution Guidelines
+________________________
+
+	I mostly view this calculator as a completed project.
+	While there may be some bugs, it exists mostly for me to
+	improve as a programmer. I am aware of a few of the small
+	bugs, especially those that appear as the user input
+	reaches very high numbers. This does not bother me and
+	these are very easy fixes. The project is currently in 
+	beta simply to allow me some room to fix these later if 
+	I ever feel so inclined.
+	
+	If you would like to add to this project by increasing 
+	its features, that would be really cool; feel free to do
+	so. I would love to see what others can do to make this
+	calculator more interactive and useful.
+
+7. License
+________________________
+
+	MIT License
+
+	Copyright (c) 2021 Benjamin J. Akrish
+
+	Permission is hereby granted, free of charge, to any person 
+	obtaining a copy of this software and associated documentation 
+	files (the "Software"), to deal in the Software without 
+	restriction, including without limitation the rights to use, 
+	copy, modify, merge, publish, distribute, sublicense, and/or
+	sell copies of the Software, and to permit persons to whom 
+	the Software is furnished to do so, subject to the following 
+	conditions:
+	
+	The above copyright notice and this permission notice 
+	(including the next paragraph) shall be included in all copies
+	or substantial portions of the Software.
+	
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY 
+	KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE 
+	WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+	PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR 
+	COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR 
+	OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+	SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
